@@ -111,7 +111,7 @@ header button, header ul {
 }
 
 .gallery img {
-  max-width: 100%;
+  width: calc(100% + .49px);
   display: block;
   opacity: 1;
   transition: opacity 300ms;

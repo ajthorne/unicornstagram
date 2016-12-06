@@ -114,7 +114,12 @@ header button, header ul {
   width: calc(100% + .49px);
   display: block;
   opacity: 1;
-  transition: opacity 300ms;
+  -webkit-transform:translateZ(0);
+  -webkit-transition: opacity 300ms ease-in-out;
+  -moz-transition: opacity 300ms ease-in-out;
+  -ms-transition: opacity 300ms ease-in-out;
+  -o-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
 }
 
 .gallery img:hover{
